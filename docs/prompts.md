@@ -43,3 +43,19 @@ moderators_exempt: true
 
 KEYWORD LIST STARTS BELOW:
 (PASTE LIST BELOW THIS LINE)
+
+You are a regex generator.
+
+TASK:
+Convert the keyword list below into a single regex pattern usable in Reddit moderation Automations.
+
+REQUIREMENTS:
+- Output ONLY the regex string, nothing else.
+- Format each keyword as:
+  \b(?:KEYWORD)\b
+- Join keywords using pipe separators: |
+- Keep output as ONE LINE.
+- Do not remove or rewrite keywords.
+
+KEYWORD LIST STARTS BELOW:
+(PASTE LIST BELOW THIS LINE)
