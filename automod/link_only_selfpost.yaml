@@ -1,0 +1,12 @@
+---
+# Removes self-posts that only contain a URL and no context.
+type: submission
+is_self: true
+body (regex, full-exact):
+  - "\\s*https?://\\S+\\s*"
+action: remove
+action_reason: "Link-only self post"
+message: |
+  Please add context instead of posting only a bare link.
+moderators_exempt: true
+---

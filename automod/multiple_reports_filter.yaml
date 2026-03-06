@@ -1,0 +1,8 @@
+---
+# Sends heavily reported submissions/comments to modqueue.
+type: any
+reports: 3
+action: filter
+action_reason: "Item has multiple community reports"
+moderators_exempt: true
+---

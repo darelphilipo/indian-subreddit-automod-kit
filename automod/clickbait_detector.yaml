@@ -1,0 +1,9 @@
+---
+# Filters obvious clickbait headline patterns.
+type: submission
+title (regex, includes):
+  - "(?i)(you\s+won't\s+believe|shocking|must\s+watch|viral\s+video|gone\s+wrong|100%\s+true|guaranteed)"
+action: filter
+action_reason: "Clickbait title pattern"
+moderators_exempt: true
+---

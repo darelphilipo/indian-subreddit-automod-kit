@@ -1,0 +1,11 @@
+---
+# Detects Indian phone-number-like strings (potential doxxing).
+type: any
+body+title (regex, includes):
+  - "(?<!\\d)(?:\\+91[-\\s]?)?[6-9]\\d{9}(?!\\d)"
+action: filter
+action_reason: "Potential phone number / doxxing"
+message: |
+  Your content appears to contain a phone number and was sent to moderators for safety review.
+moderators_exempt: true
+---

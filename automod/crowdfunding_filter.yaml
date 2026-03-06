@@ -1,0 +1,11 @@
+---
+# Filters common donation/crowdfunding domains for scam checks.
+type: any
+body+title+domain (regex, includes):
+  - "(?i)(ketto\.org|milaap\.org|impactguru\.com|gofundme\.com|bit\.ly|tinyurl\.com)"
+action: filter
+action_reason: "Crowdfunding / donation link detected"
+message: |
+  Your post/comment includes a crowdfunding or short-link domain and is pending moderator review.
+moderators_exempt: true
+---

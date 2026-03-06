@@ -1,0 +1,1 @@
+\\b(?:madarchod)\\b|\\b(?:bhenchod)\\b|\\b(?:behenchod)\\b|\\b(?:chutiya)\\b|\\b(?:chutiyapa)\\b|\\b(?:harami)\\b|\\b(?:randi)\\b|\\b(?:gandu)\\b|\\b(?:lavde)\\b|\\b(?:lawde)\\b
