@@ -1,0 +1,8 @@
+---
+type: any
+author:
+  name:
+    - Existing_Junket149
+action: filter
+action_reason: "shadowbanning notorious users"
+---

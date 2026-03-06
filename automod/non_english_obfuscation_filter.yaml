@@ -1,0 +1,31 @@
+---
+body+title (regex, includes):
+  - '(?#Latin Extended-A)(?-i:[\u0100-\u017f]+)'
+  - '(?#Latin Extended-B)[\u0180-\u024f]+'
+  - '(?#IPA Extensions)[\u0250-\u02af]+'
+  - '(?#Spacing Modifier Letters)[\u02b0-\u02ff]+'
+  - '(?#Combining Diacritical Marks)[\u0300-\u0335\u0337-\u0360\u0362-\u036f]+'
+  - '(?#Greek and Coptic)[\u0370-\u03ff]+'
+  - '(?#Cyrillic)[\u0400-\u052f]+'
+  - '(?#Armenian)[\u0530-\u058f]+'
+  - '(?#Cherokee)[\u13a0-\u13ff]+'
+  - '(?#Unified Canadian Aboriginal Syllabics)[\u1400-\u167f]+'
+  - '(?#Phonetic Extensions)[\u1d00-\u1d7f]+'
+  - '(?#Phonetic Extensions Supplement)[\u1d80-\u1dbf]+'
+  - '(?#Latin Extended Additional)[\u1e00-\u1eff]+'
+  - '(?#Greek Extended)[\u1f00-\u1fff]+'
+  - '(?#Letterlike Symbols)(?-i:[\u2100-\u214f]+)'
+  - '(?#Number Forms)[\u2160-\u218b]+'
+  - '(?#Enclosed Alphanumerics)[\u2460-\u24ff]+'
+  - '(?#Glagolitic)[\u2c00-\u2c5f]+'
+  - '(?#Latin Extended-C)[\u2c60-\u2c7f]+'
+  - '(?#Coptic)[\u2c80-\u2cff]+'
+  - '(?#Latin Extended-D)[\ua720-\ua7ff]+'
+  - '(?#Latin Extended-E)[\uab30-\uab6f]+'
+  - '(?#Cherokee Supplement)[\uab70-\uabbf]+'
+  - '(?#Halfwidth and Fullwidth Forms)[\uff00-\uff0c\uff0e-\uffef]+'
+  - '(?#Mathematical Alphanumeric Symbols)[\U0001D400-\U0001D7FF]+'
+  - '(?#Enclosed Alphanumeric Supplement)[\U0001F100-\U0001F1FF]+'
+action: filter
+action_reason: "Possible spam obfuscations or non-English [{{match}}]"
+---

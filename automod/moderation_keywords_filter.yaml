@@ -1,0 +1,30 @@
+---
+type: any
+body+title (includes-word, regex):
+  - "moderation"
+  - "mod"
+  - "moderators"
+  - "moderator"
+  - "mods"
+  - "mod team"
+  - "modmail"
+  - "mod queue"
+  - "moderator action"
+  - "mod action"
+  - "subreddit rules?"
+  - "sub rules?"
+  - "subreddit policy?"
+  - "sub policy?"
+  - "subreddit guidelines?"
+  - "sub guidelines?"
+  - "subreddit admins?"
+  - "sub admins?"
+  - "subreddit owners?"
+  - "sub owners?"
+  - "subreddit management?"
+  - "sub management?"
+  - "subreddit staff?"
+  - "sub staff?"
+action: filter
+action_reason: "Potential reference to subreddit moderation or moderators"
+---

@@ -1,0 +1,10 @@
+---
+# Remove bots pings
+type: comment
+body_shorter_than: 300
+body (regex, includes-word):
+  - '[ur]/(VredditDownloader|SaveThisVIdeo|savevideo|savevideobot|downloadvideo|save_video|GetVideoBot|downloadmp4bot|vreddit_bot|downloadmp4|rip-video|share-video)'
+  - '^/?[ur]/\S*?(save|download|vreddit|get(?!opia)|mp4|video)\S*$'
+action: remove
+action_reason: "Comment pinging a video downloading bot"
+---

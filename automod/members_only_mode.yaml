@@ -1,0 +1,14 @@
+---
+type: comment
+parent_submission:
+  flair_text (includes): "Members Only"
+author:
+  is_contributor: false
+  combined_subreddit_karma: "< 10"
+action: filter
+action_reason: "Verified Voice: User has less than 10 subreddit karma"
+comment: |
+  **Notice: Community Contributors Only**
+
+  This thread is in 'Verified Voice' mode. To ensure quality, only members with at least 10 karma earned within this subreddit can participate.
+---

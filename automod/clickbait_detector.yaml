@@ -1,0 +1,30 @@
+---
+title+media_title (regex):
+  - '(10|\d+\b(?<!covid.19)|five|four|one|seven|simple|six|three|two) ((\w+ )?(?-i:Ways)|easy|best|free|main|money|reasons?|steps)'
+  - '([5-9]|\d\d+|five|seven|simple|six) (\w+ )?ways'
+  - '(\d+|five|four|one|only|pro|seven|simple|six|this|three|two|weird)(\W[\w\x27-]{3,})?\W((pro\W?)?tips|things? (every\w*|one|only|you\w*)|trick)s?'
+  - '(photos|pictures|images) that prove'
+  - '\d{1,2} (signs|reasons) (you(\W?re)?|why)'
+  - '\d{1,2} dogs who'
+  - '\d{1,2} most important'
+  - '\d{1,2} things that'
+  - 'are the most'
+  - 'before you die'
+  - 'blow your mind'
+  - 'character are you'
+  - 'd(id|o)n\W?t know about'
+  - 'game of thrones'
+  - 'in real life'
+  - 'in your life'
+  - 'is this the'
+  - 'probably d(id|o)n\W?t know'
+  - 'reasons you should'
+  - 'things that (actually |really )?happen(ed)?'
+  - 'things you d(id|o)n\W?t'
+  - 'things you probably'
+  - 'will blow your'
+  - 'you probably d(id|o)n\W?t'
+  - 'you should be'
+action: report
+action_reason: "Possible clickbait [{{match}}]"
+---

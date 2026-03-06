@@ -1,0 +1,8 @@
+---
+author:
+  account_age: "< 3 days"
+action: remove
+action_reason: "New user account age < 3"
+message: |
+  Welcome to r/bihar! We have minimum account age limit of 3 days to maintain quality of the sub and prevent spam from new accounts ..Spend some time on reddit and do come back !
+---

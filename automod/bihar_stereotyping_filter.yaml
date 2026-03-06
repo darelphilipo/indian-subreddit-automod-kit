@@ -1,0 +1,22 @@
+---
+type: comment
+body (regex, includes-word):
+  - '(?i)\bbihari\b.*\bbimari\b'
+  - '(?i)\bbimari\b.*\bbihari\b'
+  - '(?i)\bbihar\b.*\bbimar\b'
+  - '(?i)\bbimar\b.*\bbihar\b'
+  - '(?i)\bbihar\b.*\bmajdoor\b'
+  - '(?i)\bmajdoor\b.*\bbihar\b'
+  - '(?i)\bbihari\b.*\bmajdoor\b'
+  - '(?i)\bmajdoor\b.*\bbihari\b'
+  - '(?i)\bbihari\b.*\bdihadi\b'
+  - '(?i)\bdihadi\b.*\bbihari\b'
+  - '(?i)\bbihar\b.*\bbimaru\b'
+  - '(?i)\bbimaru\b.*\bbihar\b'
+  - '(?i)\bbihari\b.*\bbimaru\b'
+  - '(?i)\bbimaru\b.*\bbihari\b'
+  - '(?i)\bnuke\b.*\bbihar\b'
+  - '(?i)\bbihar\b.*\bnuke\b'
+action: filter
+action_reason: "Possible Bihar stereotyping"
+---

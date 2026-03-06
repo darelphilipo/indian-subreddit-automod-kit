@@ -44,6 +44,12 @@ Copy rules from the `/automod/` folder into your config.
 | Remove link-only self posts | `automod/link_only_selfpost.yaml` |
 | Caste/religion keyword filter | `automod/caste_religion_filter.yaml` |
 | Phone number / doxxing detection | `automod/phone_number_filter.yaml` |
+| Bihar stereotyping detector | `automod/bihar_stereotyping_filter.yaml` |
+| Email address detector | `automod/email_address_filter.yaml` |
+| Disguised markdown link detector | `automod/disguised_link_filter.yaml` |
+| Non-English obfuscation detector | `automod/non_english_obfuscation_filter.yaml` |
+| Video bot ping removal | `automod/video_bot_ping_removal.yaml` |
+| Satlok spam filter | `automod/satlok_spam_filter.yaml` |
 
 ---
 

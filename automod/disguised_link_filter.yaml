@@ -1,0 +1,6 @@
+---
+body+title (regex, includes):
+  - '\[\s*(?:https?://)?(([\w-]{1,64}\.)+[a-z][\w-]{1,63}(?=[\s#&/?\]]))[^\]]*\]\x28\s*https?://(?!((en|home|np|www)\.)?\2[\s#&\x29/?]|[\w.-]+\.gov/|www\.google\.com/url\?\S*\2)[^\x29]*\x29'
+action: filter
+action_reason: "Possible disguised link, please review [{{match}}]"
+---

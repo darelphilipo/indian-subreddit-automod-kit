@@ -1,0 +1,7 @@
+---
+type: text submission
+body (regex, full-text):
+  - '(\[.*?\]\()?https?://\S+\)?'
+action: remove
+action_reason: "Link-only self post"
+---

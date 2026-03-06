@@ -12,6 +12,12 @@ Copy-paste AutoModerator rules for Indian subreddits.
 - Phone number doxxing detection
 - Abuse / hate keyword filters
 - Clickbait detector
+- Bihar stereotyping detector
+- Email address detector
+- Disguised markdown link detector
+- Non-English obfuscation detector
+- Video bot ping removal
+- Satlok spam filter
 
 ---
 
