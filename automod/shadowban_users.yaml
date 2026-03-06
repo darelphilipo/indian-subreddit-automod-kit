@@ -1,0 +1,11 @@
+---
+# Soft shadowban list (content removed silently from selected users).
+type: any
+author:
+  name:
+    - "example_user_1"
+    - "example_user_2"
+action: remove
+action_reason: "Shadowban list match"
+moderators_exempt: true
+---

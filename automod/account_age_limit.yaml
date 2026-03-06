@@ -1,0 +1,12 @@
+---
+# Filters content from newly created accounts.
+type: any
+author:
+  account_age: "< 7 days"
+action: filter
+action_reason: "New account age below threshold"
+message: |
+  Hi u/{{author}}, your account is too new to post/comment freely here yet.
+  A moderator will review this action.
+moderators_exempt: true
+---

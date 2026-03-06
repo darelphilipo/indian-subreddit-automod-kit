@@ -1,0 +1,13 @@
+---
+# Filters submissions from very low-karma accounts.
+type: submission
+author:
+  comment_karma: "< 20"
+  link_karma: "< 20"
+action: filter
+action_reason: "Low-karma submission (possible spam)"
+message: |
+  Hi u/{{author}}, your account is currently below the subreddit karma threshold.
+  Your post has been sent to mods for review.
+moderators_exempt: true
+---

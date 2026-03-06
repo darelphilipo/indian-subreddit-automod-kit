@@ -1,0 +1,9 @@
+---
+# Hindi abuse/slur regex starter set (expand using filters list).
+type: comment
+body (regex, includes):
+  - "(?iu)\\b(?:madarchod|bhenchod|behenchod|chutiya|chutiyapa|harami|randi|gandu|lavde|lawde)\\b"
+action: filter
+action_reason: "Hindi abuse keyword detected"
+moderators_exempt: true
+---

@@ -1,0 +1,13 @@
+---
+# Members only / verified voice mode:
+# Only approved contributors can create new submissions.
+type: submission
+author:
+  is_contributor: false
+action: filter
+action_reason: "Members-only mode: non-contributor submission"
+message: |
+  Hi u/{{author}}, this thread is currently in **Members Only / Verified Voice** mode.
+  Your post has been sent to the modqueue for manual review.
+moderators_exempt: true
+---

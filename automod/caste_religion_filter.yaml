@@ -1,0 +1,9 @@
+---
+# Flags caste/religion bait terms for moderator review.
+type: any
+title+body (regex, includes):
+  - "(?iu)\\b(?:anti\s*national|kattar|jihadi|mullah|sanghi|bhakt|libtard|chamar|bhangi|pasi|dalit\s*dogs?)\\b"
+action: filter
+action_reason: "Caste/religion conflict keyword detected"
+moderators_exempt: true
+---

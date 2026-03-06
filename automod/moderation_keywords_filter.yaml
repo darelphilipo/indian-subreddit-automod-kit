@@ -1,0 +1,14 @@
+---
+# Filters public moderation-drama/meta bait for manual review.
+type: any
+title+body (includes-word):
+  - "mod"
+  - "mods"
+  - "moderator"
+  - "biased moderation"
+  - "unfair ban"
+  - "why was i banned"
+action: filter
+action_reason: "Moderation meta keyword match"
+moderators_exempt: true
+---
